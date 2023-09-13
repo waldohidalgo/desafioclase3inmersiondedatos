@@ -96,9 +96,13 @@ Por otro lado, al revisar el pdf con la estructura de datos se verifica que la l
 
 ![Estructura de Datos Key](./img/EstructuradeDatosKey.jpg)
 
-Por último, muestro a qué corresponde el campo MPIO del Capítulo A: Identificación el cual contiene 22 valores diferentes para las localidades señaladas:
+Ahora muestro a qué corresponde el campo MPIO del Capítulo A: Identificación el cual contiene 22 valores diferentes para las localidades señaladas:
 
 ![Campo Municipio Capítulo A](./img/CampoMunicipio.jpg)
+
+Por último, muestro las primeras 5 filas del dataframe unido:
+
+![Head al dataframe unido del DANE](./img/HeadDatosDane.png)
 
 ## **Resolución Desafío 2**
 
