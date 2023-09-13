@@ -12,7 +12,7 @@ En primer lugar analizo el top 10 de barrios con mayores precios promedio por me
 
 ```
 barrios_top_10_mayores=inmuebles_mayor_precio['Barrio']
-barrios_top_10_mayores.values
+#barrios_top_10_mayores.values #esta es la lista con la cual filtro la columna Barrio
 BarriosTop10Mayores=inmuebles.query('Barrio in @barrios_top_10_mayores.values')[['Barrio','PrecioMillon']]
 BarriosTop10Mayores['Barrio'].value_counts()
 plt.figure(figsize=(10,8))
